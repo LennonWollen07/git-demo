@@ -4,10 +4,39 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color:#7D53DE;
 }
 
 #header {
     background-color: #78E3FD;
     width: 100vw;
     text-align: center;
+}
+
+#main_content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 45vw;
+    margin: 0px auto
 }
